@@ -1,0 +1,51 @@
+<ion-view view-title="Playlist">
+  <ion-content>
+
+  	  
+  	  	<center>	<h1>fullstart</h1></center>
+  	  	<center>registro</center>
+
+  	  	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJW51QoXLgCtWqAgkUJmEUvl2IaTu0XPD57SjFB-dV17r_VdbN">
+
+
+
+
+	<div class="list">
+  <label class="item item-input item-floating-label">
+    <span class="input-label">nombre</span>
+    <input type="text" placeholder="name"id="name" name="user_name"  ng-model="user.name">
+  </label>
+  <label class="item item-input item-floating-label">
+    <span class="input-label">Contraseña</span>
+    <input type="password" placeholder="password"  id="password" name="user_password" ng-model="user.password">
+  </label>
+  <label class="item item-input item-floating-label">
+    <span class="input-label">Email</span>
+    <input type="email" placeholder="Email" id="mail" name="user_email" ng-model="user.email">
+  </label>
+  <label class="item item-input item-floating-label">
+    <span class="input-label">Edad</span>
+    <input type="number" placeholder="Edad">
+  </label>
+  <label class="item item-input item-floating-label">
+    <span class="input-label">sexo</span>
+    <input type="text" placeholder="sexo">
+  </label><br>
+  <div class="edson"><ion-checkbox ng-model="choice1"><b>ninguno</ion-checkbox>
+  <ion-checkbox ng-model="choice2"><b>jobby.</ion-checkbox>
+  	
+       <fieldset>
+            <legend><span class="number">2</span>load</legend> <br> <br>
+            <label for="bio">Biography:</label>
+            <textarea id="bio" name="user_bio" ng-model="user.Biography"></textarea>
+          </fieldset>
+          <fieldset>
+<button class="button button" ng-click="validar(user)">
+  	aceptar
+  </button>
+  </div>
+  
+</div>
+	
+  </ion-content>
+</ion-view>
