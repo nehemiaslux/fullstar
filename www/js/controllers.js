@@ -25,6 +25,6 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller("loginCtrl",function($scope){
+.controller("loginnCtrl",function($scope){
 
 })
